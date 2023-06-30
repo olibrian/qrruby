@@ -1,0 +1,17 @@
+<h1>List all qr codes</h1>
+
+
+<ul>
+  <% @qrcodes.each do |qrcode| %>
+    <li>
+      <%= link_to qrcode.title, qrcode %>
+    </li>
+  <% end %>
+</ul>
+
+
+<%= link_to "New QR Code", new_qrcode_path %>
+
+<p>nice.. it works</p>
+
+

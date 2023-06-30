@@ -1,0 +1,14 @@
+<h1><%= @qrcodes.title %></h1>
+
+<p><%= @qrcodes.body %></p>
+
+<p>Created: <%= @qrcodes.created_at %></p>
+<p>Updated: <%= @qrcodes.updated_at %></p>
+
+<ul>
+  <li><%= link_to "Edit", edit_qrcode_path(@qrcodes) %></li>
+  <li><%= link_to "Destroy", qrcode_path(@qrcodes), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %></li>
+</ul>
