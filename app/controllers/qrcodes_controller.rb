@@ -12,9 +12,10 @@ class QrcodesController < ApplicationController
   end
 
   def create
-    @qrcode = Qrcode.new(title: "...", body: "...")
+    @qrcode = Qrcode.new(qrcode_params)
 
     if @qrcode.save
+      flash[:notice] = "QR Code was created succsefully"
       redirect_to @qrcode
     else
       render :new, status: :unprocessable_entity
