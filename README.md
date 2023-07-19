@@ -1,24 +1,20 @@
-# README
+# QRruby
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A small Ruby tool with a big vision to improve the world with QR Code.
 
-Things you may want to cover:
+To cover
+* Ruby version: latest
 
-* Ruby version
+* System dependencies: as little as possible. use docker and docker compose
 
-* System dependencies
+* Configuration: no configration possible
 
-* Configuration
+* Database creation: default ruby :-)
 
-* Database creation
+* Database initialization: no seed data avaible
 
-* Database initialization
-
-* How to run the test suite
+* How to run the test suite: no tests at the moment. do not how to test
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+* Deployment instructions: docker compose up
