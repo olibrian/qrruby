@@ -18,3 +18,13 @@ To cover
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions: docker compose up
+
+# Prod deployment with render.com
+
+Build with the free plan from [render.com](https://render.com) come some limitations.
+Free instances do not support backups. A free database expires 90 days after creation. Not a good choice for real prod environment :-)
+
+How to create the DB an link it to the app:
+1. Create DB, select Frankfurt region analogue to the app
+1. Copy link from `Internal Database URL` from the db
+1. Paste in Environment Variables `DATABASE_URL` of the app
