@@ -12,6 +12,9 @@ gem "sprockets-rails"
 # Use pq as the database for Active Record
 gem "pg"
 
+## Add devise authentificator
+gem "devise"
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.6"
 
