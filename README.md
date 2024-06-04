@@ -1,3 +1,5 @@
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/olibrian/qrruby/badge)](https://scorecard.dev/viewer/?uri=github.com/olibrian/qrruby)
+
 # QRruby
 
 A small Ruby tool with a big vision to improve the world with QR Code.
