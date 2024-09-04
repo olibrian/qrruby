@@ -1,4 +1,6 @@
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/olibrian/qrruby/badge)](https://scorecard.dev/viewer/?uri=github.com/olibrian/qrruby)
+![GitHub License](https://img.shields.io/github/license/olibrian/qrruby)
+
 
 # QRruby
 
