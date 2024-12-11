@@ -155,8 +155,8 @@ GEM
     nokogiri (1.17.1-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
-    pg (1.5.8)
-    psych (5.2.1)
+    pg (1.5.9)
+    psych (5.1.2)
       date
       stringio
     public_suffix (5.0.5)
